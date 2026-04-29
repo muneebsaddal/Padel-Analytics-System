@@ -1,0 +1,10 @@
+path: C:/path/to/data/players_keypoints
+train: train/images
+val: val/images
+test: test/images
+
+names:
+  0: player
+
+kpt_shape: [13, 3]
+flip_idx: [1, 0, 2, 4, 3, 5, 6, 8, 7, 10, 9, 12, 11]

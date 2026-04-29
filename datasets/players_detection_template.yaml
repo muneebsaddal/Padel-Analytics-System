@@ -1,0 +1,7 @@
+path: C:/path/to/data/players_detection
+train: train/images
+val: val/images
+test: test/images
+
+names:
+  0: player

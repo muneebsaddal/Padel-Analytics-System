@@ -1,0 +1,27 @@
+path: C:/path/to/data/court_keypoints_no_cage
+train: train/images
+val: val/images
+test: test/images
+
+names:
+  0: court_bottom_left_close
+  1: court_bottom_left_far
+  2: court_bottom_right_close
+  3: court_bottom_right_far
+  4: court_top_left_close
+  5: court_top_left_far
+  6: court_top_right_close
+  7: court_top_right_far
+  8: net_bottom_left
+  9: net_bottom_right
+  10: net_top_left
+  11: net_top_right
+  12: service_centre_close
+  13: service_centre_far
+  14: service_left_close
+  15: service_left_far
+  16: service_right_close
+  17: service_right_far
+
+kpt_shape: [1, 3]
+flip_idx: [0]

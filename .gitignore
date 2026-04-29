@@ -1,0 +1,41 @@
+# Python environments and caches
+__pycache__/
+**/__pycache__/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.venv/
+padelenv/
+
+# Generated media and runtime outputs
+*.mp4
+*.avi
+*.gif
+*.png
+*.jpg
+*.json
+*.ipynb
+*.pt
+*.csv
+*.log
+*.tar
+*.tar.gz
+
+# Large datasets, weights, and experiment outputs
+TrackNet/
+dataset/
+runs/
+weights/
+cache/
+data/
+artifacts/
+deployment/
+videos/
+examples/videos/
+
+# Large generated files
+manifest.jsonl
+cvat_frames.tar
+
+# Training scratch space
+train/
+models/
